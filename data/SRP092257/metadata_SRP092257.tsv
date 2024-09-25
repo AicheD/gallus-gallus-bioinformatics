@@ -1,0 +1,95 @@
+refinebio_accession_code	experiment_accession	refinebio_age	refinebio_cell_line	refinebio_compound	refinebio_developmental_stage	refinebio_disease	refinebio_disease_stage	refinebio_genetic_information	refinebio_organism	refinebio_platform	refinebio_processed	refinebio_processor_id	refinebio_processor_name	refinebio_processor_version	refinebio_race	refinebio_sex	refinebio_source_archive_url	refinebio_source_database	refinebio_specimen_part	refinebio_subject	refinebio_time	refinebio_title	refinebio_treatment
+SRR4478643	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day26 2 Hour Control Pituitary 845	
+SRR4478644	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day26 2 Hour Control Pituitary 847	
+SRR4478646	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 982	
+SRR4478647	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 983	
+SRR4478648	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 984	
+SRR4478649	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 993	
+SRR4478650	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 995	
+SRR4478651	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1008	
+SRR4478652	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1010	
+SRR4478653	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1011	
+SRR4478654	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1012	
+SRR4478655	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1013	
+SRR4478656	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1014	
+SRR4478657	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1015	
+SRR4478659	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Control Pituitary 1078	
+SRR4478660	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Heat Stress Pituitary 1276	
+SRR4478661	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Control Pituitary 1277	
+SRR4478662	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Heat Stress Pituitary 1278	
+SRR4478663	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Control Pituitary 1279	
+SRR4478664	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1280	
+SRR4478665	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1281	
+SRR4478666	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1282	
+SRR4478668	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Heat Stress Pituitary 1303	
+SRR4478669	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Heat Stress Pituitary 1304	
+SRR4478670	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Heat Stress Pituitary 1305	
+SRR4478671	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Heat Stress Pituitary 1306	
+SRR4478672	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Heat Stress Pituitary 1307	
+SRR4478673	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Control Pituitary 1308	
+SRR4478674	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Control Pituitary 1309	
+SRR4478676	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Heat Stress Pituitary 1312	
+SRR4478677	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Heat Stress Pituitary 1313	
+SRR4478678	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Control Pituitary 1314	
+SRR4478679	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 32 4 Hour Control Pituitary 1315	
+SRR4478680	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1317	
+SRR4478681	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1319	
+SRR4478682	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1413	
+SRR4478683	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1414	
+SRR4478684	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1415	
+SRR4478685	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1416	
+SRR4478686	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1417	
+SRR4478687	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1418	
+SRR4478688	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1419	
+SRR4478689	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Control Pituitary 1420	
+SRR4478690	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Heat Stress Pituitary 1431	
+SRR4478691	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1432	
+SRR4478692	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1433	
+SRR4478693	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1434	
+SRR4478694	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1435	
+SRR4478695	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1436	
+SRR4478696	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1437	
+SRR4478697	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 42 Heat Stress Pituitary 1438	
+SRR4478698	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Heat Stress Pituitary 1510	
+SRR4478699	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Heat Stress Pituitary 1511	
+SRR4478700	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Control Pituitary 1512	
+SRR4478701	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Control Pituitary 1513	
+SRR4478702	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 26 2 Hour Control Pituitary 1514	
+SRR4478703	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Heat Stress Pituitary 1515	
+SRR4478704	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Control Pituitary 1516	
+SRR4478705	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1517	
+SRR4478706	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1519	
+SRR4478707	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1520	
+SRR4478708	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1521	
+SRR4478709	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1522	
+SRR4478710	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1523	
+SRR4478711	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1524	
+SRR4478712	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1525	
+SRR4478714	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1549	
+SRR4478715	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1550	
+SRR4478716	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1551	
+SRR4478717	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1552	
+SRR4478718	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Control Pituitary 1553	
+SRR4478719	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1555	
+SRR4478720	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1556	
+SRR4478721	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1557	
+SRR4478722	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1558	
+SRR4478723	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 22 Heat Stress Pituitary 1559	
+SRR4478724	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1560	
+SRR4478725	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1561	
+SRR4478726	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1562	
+SRR4478727	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1564	
+SRR4478728	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1565	
+SRR4478729	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1566	
+SRR4478730	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1567	
+SRR4478731	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1568	
+SRR4478732	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1569	
+SRR4478733	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1570	
+SRR4478734	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1571	
+SRR4478735	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1572	
+SRR4478736	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 21 Control Pituitary 1573	
+SRR4478737	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Heat Stress Pituitary 1574	
+SRR4478739	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Heat Stress Pituitary 1576	
+SRR4478740	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Control Pituitary 1577	
+SRR4478741	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Control Pituitary 1578	
+SRR4478742	SRP092257								GALLUS_GALLUS	Illumina HiSeq 2500 (IlluminaHiSeq2500)	True	418	Tximport	v1.26.11-hotfix				SRA	pituitary	pituitary gland tissue		Day 40 Week Control Pituitary 1579	
