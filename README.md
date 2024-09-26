@@ -8,3 +8,4 @@ This project aims to use bioinformatics and statistical analysis to the answer t
 
 - pip 24.2
 - pandas 2.2.3
+- seaborn 0.13.2
