@@ -3,9 +3,12 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from scipy.stats import ttest_ind
+import pandas as pd
+from statsmodels.stats.multitest import multipletests
 
 
-#1
+#1------------------------------------------------------------------------------------------
 #load data into python
 df = pd.read_csv('data\SRP092257\data_with_gene_names.tsv', sep='\t')
 
@@ -37,7 +40,7 @@ plt.ylabel('Density')
 plt.show()
 
 
-#2
+#2---------------------------------------------------------------------------------------------
 #affected by heat vs thermoneutral
 #load metadata
 metadata = pd.read_csv('data\SRP092257\metadata_SRP092257.tsv', sep='\t')
@@ -152,3 +155,107 @@ plt.xlabel('UMAP1')
 plt.ylabel('UMAP2')
 plt.legend(title='Group')
 plt.show()
+
+#3--------------------------------------------------------------------------------------------------
+#prep the data for differential expression analysis
+'''
+group_labels = merged_data['Group']
+
+#getlist of genes
+genes = expression_columns
+
+
+mask_thermoneutral = group_labels == 'Thermoneutral'
+mask_heat_stress = group_labels == 'Affected by Heat'
+
+expression_values = merged_data[expression_columns]
+
+
+expression_thermoneutral = expression_values[mask_thermoneutral]
+expression_heat_stress = expression_values[mask_heat_stress]
+
+print(f"Number of Thermoneutral samples: {expression_thermoneutral.shape[0]}")
+print(f"Number of Affected by Heat samples: {expression_heat_stress.shape[0]}")
+
+#calculate mean expression for each gene in both groups
+mean_expression_thermoneutral = expression_thermoneutral.mean(axis=0)
+mean_expression_heat_stress = expression_heat_stress.mean(axis=0)
+
+#init a list to store p-values
+p_values = []
+
+#t-test's
+for gene in genes:
+    gene_expression_thermoneutral = expression_thermoneutral[gene]
+    gene_expression_heat_stress = expression_heat_stress[gene]
+    
+    t_stat, p_val = ttest_ind(gene_expression_heat_stress, gene_expression_thermoneutral, equal_var=False)
+    p_values.append(p_val)
+
+#convert p-values to a NumPy arr
+p_values = np.array(p_values)
+
+#adjust p-values for multiple testing using FDR bh
+adjusted_p_values = multipletests(p_values, method='fdr_bh')[1]
+
+#calculate log2 fold change
+log2_fold_changes_series = np.log2(mean_expression_heat_stress + 1) - np.log2(mean_expression_thermoneutral + 1)
+log2_fold_changes = log2_fold_changes_series.values
+
+#Debug shape issues*
+print(f"Length of genes: {len(genes)}")
+print(f"Length of log2_fold_changes: {len(log2_fold_changes)}")
+print(f"Length of p_values: {len(p_values)}")
+print(f"Length of adjusted_p_values: {len(adjusted_p_values)}")
+
+#df to store results
+results_df = pd.DataFrame({
+    'Log2FoldChange': log2_fold_changes,
+    'PValue': p_values,
+    'AdjustedPValue': adjusted_p_values
+}, index=genes)
+
+results_df.index.name = 'Gene'
+
+#Volcano plot
+results_df['Significant'] = 'Not Significant'
+results_df.loc[(results_df['AdjustedPValue'] < 0.05) & (abs(results_df['Log2FoldChange']) > 1), 'Significant'] = 'Significant'
+
+#create the volcano plot
+plt.figure(figsize=(10, 8))
+sns.scatterplot(
+    x='Log2FoldChange',
+    y=-np.log10(results_df['AdjustedPValue']),
+    hue='Significant',
+    data=results_df,
+    palette={'Not Significant': 'grey', 'Significant': 'red'},
+    alpha=0.7
+)
+
+#threshold lines
+plt.axhline(-np.log10(0.05), color='blue', linestyle='--')
+plt.axvline(1, color='blue', linestyle='--')
+plt.axvline(-1, color='blue', linestyle='--')
+
+plt.title('Volcano Plot of Differential Expression')
+plt.xlabel('Log2 Fold Change')
+plt.ylabel('-Log10 Adjusted P-value')
+plt.legend(title='Significance')
+plt.show()
+
+sorted_results = results_df.sort_values('AdjustedPValue')
+
+top50_genes = sorted_results.head(50)
+
+top50_genes.to_csv('results/top50_differentially_expressed_genes_python.csv')
+
+sorted_results.to_csv('results/differential_expression_results_python.csv')
+
+num_sig_genes = (sorted_results['AdjustedPValue'] < 0.05).sum()
+print(f"Number of significantly differentially expressed genes (adjusted p-value < 0.05): {num_sig_genes}")
+
+print("Top 10 differentially expressed genes:")
+print(top50_genes[['Log2FoldChange', 'AdjustedPValue']].head(10))
+'''
+
+#4--------------------------------------------------------------------------------------------------
