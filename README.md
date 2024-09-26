@@ -14,3 +14,4 @@ This project aims to use bioinformatics and statistical analysis to the answer t
 
 - install python
 - pip install pandas numpy scikit-learn matplotlib seaborn umap-learn
+- pip install statsmodels
