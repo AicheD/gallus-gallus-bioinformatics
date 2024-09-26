@@ -2,28 +2,27 @@ import pandas as pd
 import requests
 import time
 
-# Read your original dataset
 df = pd.read_csv('data\SRP092257\SRP092257.tsv', sep='\t')
 
-# Ensure Ensembl IDs are strings and remove version numbers
+#format string data
 df['Gene'] = df['Gene'].astype(str).str.split('.').str[0]
 
-# Get the list of unique Ensembl Gene IDs from the entire dataset
+#store list of unique Ensembl Gene IDs
 ensembl_ids = df['Gene'].unique().tolist()
 
-# Function to query the Ensembl REST API
+#Ensembl REST API query func
 def query_ensembl(ids):
     server = "https://rest.ensembl.org"
     ext = "/lookup/id"
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
 
-    # Prepare the data for POST request
+    #Prep data for POST request
     data = {"ids": ids}
 
-    # Send the POST request
+    #Send the POST request
     response = requests.post(server + ext, headers=headers, json=data)
 
-    # Handle rate limiting
+    #Handle rate limiting with time lib
     while response.status_code == 429:
         print("Rate limited, sleeping for 1 second...")
         time.sleep(1)
@@ -34,11 +33,13 @@ def query_ensembl(ids):
 
     return response.json()
 
-# Map Ensembl IDs to Gene Names
+#Map Ensembl IDs to Gene Names
 id_to_name = {}
-chunk_size = 1000  # Adjust chunk size to process IDs in batches
 
-# Process IDs in chunks
+#process in batches
+chunk_size = 1000  
+
+#Process IDs in chunks
 for i in range(0, len(ensembl_ids), chunk_size):
     chunk = ensembl_ids[i:i + chunk_size]
     print(f"Processing IDs {i + 1} to {i + len(chunk)} of {len(ensembl_ids)}...")
@@ -50,23 +51,22 @@ for i in range(0, len(ensembl_ids), chunk_size):
             id_to_name[ensembl_id] = gene_name
         else:
             id_to_name[ensembl_id] = None
-    # Be polite with the API
     time.sleep(1)
 
-# Create a DataFrame from the mapping
+#Create a df from the mapping
 mapping_df = pd.DataFrame.from_dict(id_to_name, orient='index', columns=['Gene name']).reset_index()
 mapping_df.rename(columns={'index': 'Gene'}, inplace=True)
 
-# Merge your dataset with the mapping DataFrame
+# Merge dataset with the mapping df
 merged_df = pd.merge(df, mapping_df, on='Gene', how='left')
 
-# Replace Ensembl IDs with Gene Names where available
+#Replace Ensembl IDs w/ Gene Names
 merged_df['Gene'] = merged_df['Gene name'].combine_first(merged_df['Gene'])
 
-# Drop the 'Gene name' column
+#Drop the 'Gene name' col
 merged_df = merged_df.drop(columns=['Gene name'])
 
-# Save the final DataFrame to a new TSV file
+#export resulting df to tsv file
 merged_df.to_csv('data_with_gene_names.tsv', sep='\t', index=False)
 
 print("Mapping complete. Output saved to 'data_with_gene_names.tsv'.")

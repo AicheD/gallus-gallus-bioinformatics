@@ -4,7 +4,13 @@ This project aims to use bioinformatics and statistical analysis to the answer t
 <br><br>Project Members: Harry Zarcadoolas, Ryan Schreck, Jacob Schreck, Luke Unbehagen, and Preston Hemmy
 
 
-## Environment Set-up
+## Environment Was Using These Dependencies+Versions
 
 - pip 24.2
 - pandas 2.2.3
+- seaborn 0.13.2
+
+## Environment Setup
+
+- install python
+- pip install pandas numpy scikit-learn matplotlib seaborn umap-learn
