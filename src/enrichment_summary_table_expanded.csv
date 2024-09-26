@@ -1,0 +1,2 @@
+GO Term,Description,p-value,Precision,Recall,Query Size,Term Size
+negative regulation of vascular associated smooth muscle cell proliferation,"""Any process that stops, prevents or reduces the frequency, rate or extent of vascular smooth muscle cell proliferation."" [GO_REF:0000058, GOC:TermGenie, PMID:23246467]",0.0440219782652221,0.0416666666666666,0.2727272727272727,72,11
